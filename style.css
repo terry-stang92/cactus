@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+  }
+
+  body {
+    height: 100vh;
+  }
+
+  .author-info {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 16px;
+    color: rgb(55, 65, 81);
+  }
+
+  .author-info a {
+    text-decoration: none;
+  }
+
+
+ .blog img {
+    width: 300px;  /* Makes it fit inside the card */
+    height: auto; /* Keeps the aspect ratio */
+    max-height: 200px; /* Limits height so it's not too big */
+    border-radius: 10px; /* Smooth edges */
+    object-fit: cover; /* Crops excess areas while keeping focus */
+    display: block; /* Ensures it behaves like a block element */
+    margin: 0 auto; /* Centers the image in the card */
+  }
+
+
+  .blog-card {
+    width: 336px; /* Ancho exacto según el diseño */
+    padding: 16px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Alineación correcta */
+}
+
+.blog-card img {
+  
+    width: 100%;
+    height: auto;
+    max-height: 152px; /* Tamaño del diseño */
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #eee;
+  color: #333;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 6px 10px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+}
+
+.author {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+.tag {
+  display: inline-block;
+  background-color: #eee;
+  color: #de53a8;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-align: left;
+}
